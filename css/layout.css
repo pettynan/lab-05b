@@ -1,0 +1,73 @@
+/* line-height centering solution comes from https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css */
+
+#div-a {
+  height: 73px;
+  line-height: 73px;
+  background-color: #00FF66;
+}
+
+#div-b {
+  height: 148px;
+  line-height: 148px;
+  background-color: #EFFFA0;
+}
+
+#div-c {
+  background-color: #00FFFF;
+}
+
+#div-d {
+  background-color: #0093F2;
+}
+
+#div-e {
+  background-color: #0000B2;
+}
+
+#div-f {
+  background-color: #00FF66;
+}
+
+#div-g {
+  clear: both;
+  background-color: #EFFFA0;
+}
+
+#div-h {
+  background-color: #00FFFF;
+}
+
+#div-i {
+  height: 78px;
+  line-height: 78px;
+  clear: both;
+  background-color: #0093F2;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #div-a {
+    width: 958px;
+    height: 98px;
+    line-height: 98px;
+  }
+  
+  #div-b {
+    width: 198px;
+    height: 598px;
+    line-height: 598px;
+    float: left;
+  }
+
+  #div-g {
+    clear: none;
+  }
+
+  #div-i {
+    width: 758px;
+    height: 148px;
+    line-height: 148px;
+    clear: right;
+    float: right;
+  }
+}
