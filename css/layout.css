@@ -1,5 +1,7 @@
 /* line-height centering solution comes from https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css */
 
+/* Color palette from https://coolors.co/ */
+
 #div-a {
   height: 73px;
   line-height: 73px;
