@@ -1,0 +1,11 @@
+.div-class-1 * {
+  height: 123px;
+  line-height: 123px;
+}
+
+.div-class-2 * {
+  width: 238px;
+  height: 248px;
+  line-height: 248px;
+  float: left;
+}

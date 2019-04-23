@@ -1,0 +1,41 @@
+/* line-height centering solution comes from https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css */
+
+#div-a {
+  height: 73px;
+  line-height: 73px;
+}
+
+#div-b {
+  height: 148px;
+  line-height: 148px;
+}
+
+#div-c {
+  
+}
+
+#div-d {
+  
+}
+
+#div-e {
+  
+}
+
+#div-f {
+  
+}
+
+#div-g {
+  clear: both;
+}
+
+#div-h {
+  
+}
+
+#div-i {
+  height: 78px;
+  line-height: 78px;
+  clear: both;
+}
