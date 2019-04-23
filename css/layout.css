@@ -2,15 +2,17 @@
 
 /* Color palette from https://coolors.co/ */
 
+/* width: calc(); solution from http://nimbupani.com/using-decimal-percentage-values-in-responsive-design.html */
+
 #div-a {
-  height: 73px;
-  line-height: 73px;
+  height: 75px;
+  line-height: 75px;
   background-color: #00FF66;
 }
 
 #div-b {
-  height: 148px;
-  line-height: 148px;
+  height: 150px;
+  line-height: 150px;
   background-color: #EFFFA0;
 }
 
@@ -23,7 +25,7 @@
 }
 
 #div-e {
-  background-color: #0000B2;
+  background-color: #62a5bb;
 }
 
 #div-f {
@@ -40,8 +42,8 @@
 }
 
 #div-i {
-  height: 78px;
-  line-height: 78px;
+  height: 80px;
+  line-height: 80px;
   clear: both;
   background-color: #0093F2;
 }
@@ -49,15 +51,15 @@
 @media only screen and (min-width: 768px) {
 
   #div-a {
-    width: 958px;
-    height: 98px;
-    line-height: 98px;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
   }
   
   #div-b {
-    width: 198px;
-    height: 598px;
-    line-height: 598px;
+    width: calc(5/24 * 100%);
+    height: 600px;
+    line-height: 600px;
     float: left;
   }
 
@@ -66,9 +68,9 @@
   }
 
   #div-i {
-    width: 758px;
-    height: 148px;
-    line-height: 148px;
+    width: calc(19/24 * 100%);
+    height: 150px;
+    line-height: 150px;
     clear: right;
     float: right;
   }
